@@ -1,0 +1,28 @@
+
+.card {
+    padding: 0;
+    padding: 5px;
+    background: none;
+    color: #090909;
+    opacity: 0;
+    height: 170px;
+}
+
+.cardContent {
+    background: #ffffff;
+    height: 170px;
+}
+
+.cardContent img {
+    height: 100%;
+    overflow: auto
+}
+
+.info {
+    font-size: 14px;
+}
+
+.cardEntered {
+    opacity: 1;
+    transition: all 0.5s ease;
+}
